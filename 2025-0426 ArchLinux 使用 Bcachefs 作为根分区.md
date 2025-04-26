@@ -124,6 +124,8 @@ arch-chroot /mnt
 
 ### 配置启动参数
 
+有多种方法生成uki，本教程只介绍一种方法。
+
 在 `/etc/kernel/cmdline` 中写入启动参数：
 
 ```bash
@@ -153,19 +155,6 @@ MODULES=(bcachefs)
 HOOKS=(base udev autodetect modconf block filesystems keyboard fsck bcachefs)
 ```
 
-创建 `/etc/kernel/uki.conf`：
-
-```ini
-[UKI]
-Splash=/usr/share/systemd/bootctl/splash-arch.bmp
-```
-
-创建 `/etc/kernel/install.conf`：
-
-```bash
-layout=uki
-uki_generator=mkinitcpio
-```
 
 编辑 `/etc/mkinitcpio.d/linux.preset`：
 
