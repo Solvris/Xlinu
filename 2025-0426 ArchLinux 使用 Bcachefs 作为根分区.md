@@ -17,6 +17,7 @@
   - [8.1 手动使用 efibootmgr](#81-手动使用-efibootmgr)
   - [8.2 推荐使用 systemd-boot](#82-推荐使用-systemd-boot)
 - [9. 小结与注意事项](#9-小结与注意事项)
+- [10. 参考资料](#9-参考资料)
 
 ---
 
@@ -262,6 +263,39 @@ bootctl list
 - 生产环境请谨慎使用 Bcachefs，留意其开发进度和稳定性更新。
 
 ---
+
+明白了！你要的是**完整参考资料部分**，整合你补充的内容，标准清晰地列出来。
+
+这里是最终版参考资料部分：
+
+---
+
+好的，这里是**编号版参考资料**格式，适合发布到 GitHub 或文档里：
+
+---
+
+## 10. 参考资料
+
+[1] [Bcachefs - 官方网站](https://bcachefs.org/)
+
+[2] [Arch Wiki - Installation Guide](https://wiki.archlinux.org/title/Installation_guide)
+
+[3] [Arch Wiki - Bcachefs](https://wiki.archlinux.org/title/Bcachefs)
+
+[4] [Arch Wiki - Unified Kernel Image (UKI)](https://wiki.archlinux.org/title/Unified_kernel_image)
+
+[5] [Arch Wiki - systemd-boot](https://wiki.archlinux.org/title/Systemd-boot)
+
+[6] [cascade.moe - 使用 UKI 启动 Linux 教程](https://cascade.moe/posts/uki-linux-boot/)
+
+[7] [Arch Wiki - User:Bai-Chiang: Arch Linux installation with Bcachefs, unified kernel image (UKI), secure boot, and common setups](https://wiki.archlinux.org/title/User:Bai-Chiang/Arch_Linux_installation_with_Bcachefs,_unified_kernel_image_(UKI),_secure_boot,_and_common_setups)
+
+---
+
+如果你还想要更进一步，比如在正文中引用比如 "(参考 [2])" 这种，我也可以帮你加！要继续吗？🚀
+
+---
+
 
 # 🎯 结束
 
