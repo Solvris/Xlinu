@@ -95,12 +95,6 @@ pacstrap -K /mnt base linux linux-firmware bcachefs-tools mkinitcpio
 
 ## 6. 配置新系统
 
-进入新系统环境：
-
-```bash
-arch-chroot /mnt
-```
-
 生成文件系统表 `/etc/fstab`：
 
 ```bash
@@ -112,6 +106,13 @@ genfstab -U /mnt >> /mnt/etc/fstab
 ```bash
 # 示例 fstab 行
 UUID=xxxx-xxxx  /efi  vfat  defaults,fmask=0077,dmask=0077  0  1
+```
+
+
+进入新系统环境：
+
+```bash
+arch-chroot /mnt
 ```
 
 配置主机名、locale、root密码等基本设置（参照 ArchWiki）。
