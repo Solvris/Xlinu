@@ -214,8 +214,13 @@ efibootmgr --create \
 efibootmgr --bootorder 0003,0001,0000
 ```
 
-完成后，即可重启进入系统。
+一种方便的方法是建立一个 BOOTX64.EFI
+```
+mkdir -p /efi/EFI/BOOT/
+cp /efi/EFI/Linux/archlinux.efi /efi/EFI/BOOT/bootx64.efi
+```
 
+完成后重启即可进入系统。
 ---
 
 ### 8.2 推荐使用 systemd-boot
